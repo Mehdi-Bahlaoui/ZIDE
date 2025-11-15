@@ -1,6 +1,15 @@
-# AVR Arduino Zig
+# ZIDE: ZIG-Integrated Development Environement
+An IDE built with the language ZIG, also, specifically designed for embedded software design with ZIG.
 
-This project can build code that can be run on an Arduino Uno, using only Zig as its **only** dependency. 
+Initial support will be for the Arduino Microcontrollers Family (Q not Included)
+
+More on ZIG: [www.wikipedia/zig (programming language) ](https://en.wikipedia.org/wiki/Zig_(programming_language))
+
+
+
+# Currently
+
+This repo is a fork of an already existing project that can build code that can be run on an Arduino Uno, using only Zig as its **only** dependency. 
 
 Currently only `avrdude` is an external dependency that is needed to program the chip.
 
